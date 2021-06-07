@@ -1,0 +1,5 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Failure: Assertion violation
+Time: 30 ns  Iteration: 0  Process: /bramka_tb/stim_proc  File: C:/Users/DESKTOP-12/Desktop/PUL/bramka/bramka.srcs/sim_1/new/bramka_tb.vhd
+$finish called at time : 30 ns : File "C:/Users/DESKTOP-12/Desktop/PUL/bramka/bramka.srcs/sim_1/new/bramka_tb.vhd" Line 62

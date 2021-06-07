@@ -1,0 +1,1 @@
+-wto "9b06ace55f384777b4378d023cf62723" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "bramka_tb_behav" "xil_defaultlib.bramka_tb" -log "elaborate.log" 

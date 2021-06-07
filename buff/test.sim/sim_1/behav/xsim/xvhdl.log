@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/DESKTOP-12/Desktop/PUL/test/test.srcs/sources_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'iobuffer_example'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/DESKTOP-12/Desktop/PUL/test/test.srcs/sim_1/new/iobuffer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'iobuffer_tb'
