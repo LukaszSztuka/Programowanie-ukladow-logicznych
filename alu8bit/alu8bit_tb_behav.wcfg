@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="alu8bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu8bit_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="424944fs"></ZoomStartTime>
+      <ZoomEndTime time="481295fs"></ZoomEndTime>
+      <Cursor1Time time="315000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="120"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/alu8bit_tb/nreset" type="logic">
+      <obj_property name="ElementShortName">nreset</obj_property>
+      <obj_property name="ObjectShortName">nreset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/clk2" type="array">
+      <obj_property name="ElementShortName">clk2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/op" type="array">
+      <obj_property name="ElementShortName">op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/u_a" type="array">
+      <obj_property name="ElementShortName">u_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">u_a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/u_b" type="array">
+      <obj_property name="ElementShortName">u_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">u_b[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/u_result" type="array">
+      <obj_property name="ElementShortName">u_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">u_result[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/borrow" type="logic">
+      <obj_property name="ElementShortName">borrow</obj_property>
+      <obj_property name="ObjectShortName">borrow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/op3" type="array">
+      <obj_property name="ElementShortName">op3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/a3" type="array">
+      <obj_property name="ElementShortName">a3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/b3" type="array">
+      <obj_property name="ElementShortName">b3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/a4" type="array">
+      <obj_property name="ElementShortName">a4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a4[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/res3" type="array">
+      <obj_property name="ElementShortName">res3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/test" type="array">
+      <obj_property name="ElementShortName">test[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu8bit_tb/pop" type="array">
+      <obj_property name="ElementShortName">pop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pop[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
